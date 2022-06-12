@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 
 router.get('/',homeView)
 router.get('/add',addView)
-router.post('/add', addProduct )
+router.post('/add', addProduct)
 router.get('/update',updateView)
 router.get('/delete',deleteView)
   
